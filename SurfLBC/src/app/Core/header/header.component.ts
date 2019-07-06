@@ -12,12 +12,12 @@ export class HeaderComponent implements OnInit {
   constructor() {
     this.navLinks = [
       {
-        label: 'Menu 1',
-        link: '',
+        label: 'Acheter',
+        link: 'acheter',
         index: 0
       }, {
-        label: 'Menu 2',
-        link: '',
+        label: 'Vendre',
+        link: 'vendre',
         index: 1
       }
     ];

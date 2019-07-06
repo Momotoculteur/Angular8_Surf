@@ -7,19 +7,25 @@ import { HeaderComponent } from './Core/header/header.component';
 import { FooterComponent } from './Core/footer/footer.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AcheterComponent } from './acheter/acheter.component';
+import { VendreComponent } from './vendre/vendre.component';
+import {LoginModule} from "../login/login.module";
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AcheterComponent,
+    VendreComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatTabsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
