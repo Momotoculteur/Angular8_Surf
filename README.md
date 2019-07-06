@@ -12,3 +12,5 @@ L'ensemble des explications sont disponible ici :
 - Branch **Chap3** : [Structure d’un application Angular](https://deeplylearning.fr/cours-web-frontend-angular-8/chap-3-structure-dun-application-angular/ "Structure d’un application Angular")
 
 - Branch **Chap4** : [Créer votre premier component ( header & footer )](https://deeplylearning.fr/cours-web-frontend-angular-8/chap-4-creer-votre-premier-component-header-footer/ "Créer votre premier component ( header & footer )")
+
+- Branch **Chap5** : [Gestion de la navigation via les routes](https://deeplylearning.fr/cours-web-frontend-angular-8/chap-5-gestion-de-la-navigation-via-les-routes/ "Gestion de la navigation via les routes")
