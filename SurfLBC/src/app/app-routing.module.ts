@@ -1,11 +1,7 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
 import {AcheterComponent} from './acheter/acheter.component';
 import {VendreComponent} from "./vendre/vendre.component";
-import {LoginModule} from "../login/login.module";
-import {LoginComponent} from "../login/login.component";
-import {ConnexionComponent} from "../login/connexion/connexion.component";
-import {InscriptionComponent} from "../login/inscription/inscription.component";
 
 const routes: Routes = [
   {
@@ -23,17 +19,12 @@ const routes: Routes = [
   },
   {
     path: 'login',
-    component: LoginComponent,
-    children: [
-      {path: '', redirectTo: 'inscription', pathMatch: 'full'},
-      {path: 'connexion', component: ConnexionComponent},
-      {path: 'inscription', component: InscriptionComponent}
-    ]
+    loadChildren: '../login/login.module#LoginModule'
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {preloadingStrategy: PreloadAllModules})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

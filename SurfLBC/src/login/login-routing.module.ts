@@ -7,6 +7,15 @@ import {InscriptionComponent} from "./inscription/inscription.component";
 
 
 const routes: Routes = [
+  {
+    path: '',
+    component: LoginComponent,
+    children: [
+      {path: '', redirectTo: 'inscription', pathMatch: 'full'},
+      {path: 'inscription', component: InscriptionComponent},
+      {path: 'connexion', component: ConnexionComponent}
+    ]
+  }
 ];
 
 @NgModule({
