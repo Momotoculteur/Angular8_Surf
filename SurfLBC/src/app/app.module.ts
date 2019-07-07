@@ -9,7 +9,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AcheterComponent } from './acheter/acheter.component';
 import { VendreComponent } from './vendre/vendre.component';
-import {LoginModule} from "../login/login.module";
+import {LoginModule} from '../login/login.module';
 
 
 @NgModule({

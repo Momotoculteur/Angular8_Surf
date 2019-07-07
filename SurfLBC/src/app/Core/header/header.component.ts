@@ -19,6 +19,10 @@ export class HeaderComponent implements OnInit {
         label: 'Vendre',
         link: 'vendre',
         index: 1
+      }, {
+        label: 'Connexion',
+        link: 'login',
+        index: 2
       }
     ];
 
