@@ -15,4 +15,4 @@ L'ensemble des explications sont disponible ici :
 
 - Branch **Chap5** : [Gestion de la navigation via les routes](https://deeplylearning.fr/cours-web-frontend-angular-8/chap-5-gestion-de-la-navigation-via-les-routes/ "Gestion de la navigation via les routes")
 
-- Branch **Chap5 bis** : [Gestion de la navigation via les routes avec lazy loading](https://deeplylearning.fr/cours-web-frontend-angular-8/chap-5-gestion-de-la-navigation-via-les-routes/ "Gestion de la navigation via les routes avec lazy loading")
+- Branch **Chap5 bis** : [Gestion de la navigation via les routes avec lazy loading & preloadStrategy](https://deeplylearning.fr/cours-web-frontend-angular-8/chap-5-gestion-de-la-navigation-via-les-routes/ "Gestion de la navigation via les routes avec lazy loading & preloadStrategy")
